@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(34, 33, 33);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url('../img/imgBgSetup.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.table {
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(40, 115, 255, 0.82);
+    table-layout: fixed; 
+}
+
+td {
+    background-color: rgb(255, 255, 255);
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+}
+
+#btn-adicionar {
+    margin-top: 230px;
+    width: 25%;
+}
+
+#total-valor {
+    color: #2bff00; /* #fd6804 */
+}
+
+/* Modal */
+.modal-header {
+    background-color: rgb(34, 33, 33);
+    color: #fff;
+}
+
+#botaoFecharModal{
+    color: #fff;
+}
+
+/* Responsividade */
+@media (max-width: 576px) {
+    #btn-adicionar {
+        margin-top: 10px;
+    }
+
+    .table {
+        margin-top: 10px;
+    }
+
+    .table td .btn {
+        display: block;
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    .table td {
+        text-align: center;
+    }
+
+    .table th, .table td {
+        padding: 0.5rem;
+    }
+
+    .table thead th {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .table th, .table td {
+        padding: 0.25rem;
+    }
+}
