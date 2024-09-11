@@ -1,5 +1,13 @@
-Para rodar esse projeto é bem simples.
+Para rodar o projeto:
 
-Basta navegar até a pasta do backend pelo terminal e iniciar o servidor com o comando "npm start", deverá rodar na porta 3000. Utilize o Postman ou outro aplicativo para verificar os métodos HTTP.
-
-Com o Servidor iniciado, apenas inicie o index.html! 😎
+***Instale as Dependências:
+   --Abra o terminal ou prompt de comando.
+   --Navegue até a pasta backend dentro de projetoFinal: cd Desktop/projetoFinal/backend
+***Execute: 
+   -- Use o comando "npm install"
+***Iniciar o Servidor:
+   --Execute: npm start
+***Testar:
+   --Use o Postman (ou ferramenta similar) para testar os métodos HTTP.
+***Abrir index.html:
+   --Abra o arquivo index.html no navegador.
