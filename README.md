@@ -4,7 +4,9 @@ Para rodar o projeto:
 
 
 ***Instale as Dependências:
+
    --Abra o terminal ou prompt de comando.
+   
    --Navegue até a pasta backend dentro de projetoFinal: cd Desktop/projetoFinal/backend
    
 ***Execute: 
