@@ -1,5 +1,8 @@
 Para rodar o projeto:
 
+!!!Certifique-se de ter o Node.js instalado em seu sistema. Você pode verificar isso executando o comando node -v no terminal. Se não estiver instalado, baixe e instale a versão mais recente.!!!
+
+
 ***Instale as Dependências:
    --Abra o terminal ou prompt de comando.
    --Navegue até a pasta backend dentro de projetoFinal: cd Desktop/projetoFinal/backend
